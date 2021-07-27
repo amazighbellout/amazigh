@@ -1,0 +1,22 @@
+html{
+    font-size: 20;
+    font-family: 'Zen Tokyo Zoo', cursive;
+    background-color:rgb(130, 212, 130);
+}
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: #00539F;
+    text-shadow: 3px 3px 1px black;
+  }
+body{
+    width: 1000px;
+    margin:0 auto;
+    background-color:rgb(82, 88, 82);
+    padding: 0 20px 20px 20px;
+    border: :0 solid black;
+}
+img {
+    display:block;
+    margin: 0 auto;
+}

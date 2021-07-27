@@ -27,17 +27,17 @@ let myImage = document.querySelector('img');
 
 myImage.addEventListener('click', function() {
     let mySrc = myImage.getAttribute('src');
-    if (mySrc === 'images/amazigh.jpg') {
-      myImage.setAttribute('src', 'images/firefox2.png');
+    if (mySrc === 'amazigh.jpg') {
+      myImage.setAttribute('src', 'firefox2.png');
     } else {
-      myImage.setAttribute('src', 'images/amazigh.jpg');
+      myImage.setAttribute('src', 'amazigh.jpg');
     }
 });
 myImage.addEventListener('click', function() {
     let mySrc = myImage.getAttribute('src');
-    if (mySrc != 'images/amazigh.jpg') {
-      myImage.setAttribute('src', 'images/firefox2.png');
+    if (mySrc != 'amazigh.jpg') {
+      myImage.setAttribute('src', 'firefox2.png');
     } else {
-      myImage.setAttribute('src', 'images/amazigh.jpg');
+      myImage.setAttribute('src', 'amazigh.jpg');
     }
 });
